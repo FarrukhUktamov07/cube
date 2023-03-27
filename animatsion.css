@@ -1,0 +1,18 @@
+@keyframes cube{
+    0%{
+        transform: rotateX(0deg);
+
+    }
+    25%{
+       transform: rotateX(90deg);
+    }
+    50%{
+        transform: rotateX(360deg);
+    }
+    75%{
+        transform: rotateY(190deg);
+    }
+    100%{
+         transform: rotateX(0deg);
+    }
+}
